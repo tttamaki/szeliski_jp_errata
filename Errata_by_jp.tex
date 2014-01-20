@@ -1,0 +1,172 @@
+\documentclass[10pt]{article}
+\usepackage[a3paper]{geometry}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{xfrac}
+\addtolength{\oddsidemargin}{-3.5cm}
+\addtolength{\textheight}{8cm}
+\addtolength{\topmargin}{-3cm}
+
+\begin{document}
+\thispagestyle{empty}
+\center
+{\large Errata for \textit{Computer Vision: Algorithms and Applications}}\\
+\medskip
+found by the Japanese translators of the Japanese edition\\
+\medskip
+\today\\
+\medskip
+\small
+\renewcommand\arraystretch{1.1}
+\begin{tabular}{|c|c|c|l|}\hline
+\parbox[c]{5em}{\center Hardcopy\\ p.\#} &
+\parbox[c]{6em}{\center Online\\ Sept. 3, 2010} &
+Equation & Correction\\\hline
+% chapter 1
+12 & 13 & ``Hardware impl.'' & (see \underline{Section} C.2) $\Rightarrow$ Appendix \\\hline
+22 & 24 & Chap. 9 & example of \textit{computation\underline{al} photography} \\\hline
+% chapter 2
+32 & 35 & below (2.12) & $det(\boldsymbol{L})=0$ $\Rightarrow$ $\det(\boldsymbol{L})=0$ or $|\boldsymbol{L}|=0$ \\\hline
+32,33 & 35 & above (2.12) and below (2.13) & Hartley and Zisserman 2004, \underline{Chapter 2} $\Rightarrow$ Chapter 3 \\\hline
+
+34 & 37 & Hier. of 2D trans. & ``a \underline{subset} of the more complex group'' $\Rightarrow$ subgroup \\\hline
+34 & 37 & above (2.22) & $\boldsymbol{x}' = \tilde{\boldsymbol{H}} \boldsymbol{x}$ $\Rightarrow$ $\tilde{\boldsymbol{x}}' = \tilde{\boldsymbol{H}} \tilde{\boldsymbol{x}}$ \\\hline 
+35 & 38 & planar surface flow & $y' = a_3 + a_4 x + a_5 y + \underline{a_7 x^2 + a_6 xy}$ $\Rightarrow$  $a_6 xy + a_7 y^2$ \\\hline
+36 & 39 & above (2.23) & Hartley and Zisserman (2004, \underline{Section 2.4}) $\Rightarrow$  Section 3.4 \\\hline
+48 & 54 & footnote 2 & ``non-integral'' $\Rightarrow$ ``non-integer'' \\\hline
+53 & 59 & (2.79) & $x'$ and $y'$ in the right hand sides $\Rightarrow$ $\hat{x}$ and $\hat{y}$ \\\hline
+%61 & ? & Figure 2.19 & If the \underline{focal plane} $\Rightarrow$ image plane \\\hline
+63 & 70 & below (2.97) & e.g., from $\sfrac{1}{125}$ to $\sfrac{1}{250}$ $\Rightarrow$ from $\sfrac{1}{250}$ to $\sfrac{1}{125}$ \\\hline
+% chapter 3
+92   & 105 & 3rd para. sec. 3.1.2 & Figure 2.32g--i $\Rightarrow$ Figure 2.32f--h \\\hline
+96   & 109 & next para. below (3.9) & Figure 3.7d shows $\Rightarrow$  Figure 3.7e shows \\\hline
+96   & 109 & next para. below (3.9) & in Figure 3.7e $\Rightarrow$ in Figure 3.7f \\\hline
+105 & 119 & next para. below (3.28) & $\nabla_{{\mbox{$\boldsymbol{\hat{u}}$}}} \cdot \nabla_{{\mbox{$\boldsymbol{\hat{u}}$}}} G_{{\mbox{$\boldsymbol{\hat{u}}$}}}$
+       $\Rightarrow$ 
+       $\nabla_{{\mbox{$\boldsymbol{\hat{u}}$}}} G_{{\mbox{$\boldsymbol{\hat{u}}$}}}$
+       or
+       $\nabla_{{\mbox{$\boldsymbol{\hat{u}}$}}} \nabla_{{\mbox{$\boldsymbol{\hat{u}}$}}} G$
+        \\\hline
+111 & 126 & (3.39) & remove ``$\lambda = $'' \\\hline
+112 & 127 & 2nd para. before sec. 3.3.2 & remove ``)'' of ``and 3.7.2).'' \\\hline
+117 & 133 & (3.50), Fig 3.24 & $e^{j \omega x + \phi}$ $\Rightarrow$ $e^{j (\omega x + \phi)}$ \\\hline
+121 & 138 & (3.59) & $LoG$ $\Rightarrow$ $\mathrm{LoG}$ \\\hline
+124 & 142 & next para. below (3.74) & $P(f)$ $\Rightarrow$ $P_s(f)$ \\\hline
+132 & 150 & 2nd para. sec.3.5.3 & (Figure 3.33) $\Rightarrow$ (Figure 3.32)  \\\hline
+134 &        & 3rd para. sec.3.5.3 & the base-level Gaussian (\underline{$L_2$} in Figure 3.34b) $\Rightarrow$ $L_1$ \\\hline
+138 & 157 &  para. in sec. 3.5.4 (below Fig.3.38) &  The same applies to filtering the \underline{even} sequence    $\Rightarrow$  odd \\\hline
+140 &       & last para. sec.3.5.4 & Figure 3.40\underline{b} illustrates ... $\Rightarrow$ 3.40\underline{d} \\\hline
+156 &      & below (3.102) & where $\boldsymbol{x} = [ ... ] $ is $\Rightarrow$ $\boldsymbol{x} = ( ... ) $ \\\hline
+158 &       & above (3.106) & the \textit{posterior} distribution for a given set of measurements $\boldsymbol{y}$, \underline{$p(\boldsymbol{y}|\boldsymbol{x})$}, $\Rightarrow$ $p(\boldsymbol{x}|\boldsymbol{y})$ \\\hline
+160 & 181 & (3.109) & $\mathcal{N}$  $\Rightarrow$  $\mathcal{N}(i,j)$ \\\hline
+169 & 192 & 1st para. sec.3.8 &  the IEEE \underline{International} Conference on Image Processsing \\\hline
+172 & 195 & Ex.3.3 & remove ``)'' from ``... Sectoin 3.1.3) or ...'' \\\hline
+%chapter 4
+188 & 212 & ``F\"{o}rster--Harris'' para. & While Anandan \underline{(1989)} and Kanade ... \\\hline
+203 & 232 & (4.18) & $\frac{\| D_A - D_B|}{\| D_A - D_C |}$ $\Rightarrow$  $\frac{\| D_A - D_B \|}{\| D_A - D_C \|}$  \\\hline
+212 & 240 & (4.22) & $[ \nabla ^2 G_\sigma ] (\boldsymbol{x} ) * I(\boldsymbol{x})].$ $\Rightarrow$ $[ \nabla ^2 G_\sigma ] (\boldsymbol{x} ) * I(\boldsymbol{x}).$ \\\hline
+%chapter 5
+%253 & ? & below (5.22) & provably $\Rightarrow$ probably \\\hline  % I'm not sure...
+%chapter 6
+277 & 313 & footnote 3 & a different variance or \underline{certainty} $\Rightarrow$ uncertainty \\\hline
+    & 314 & (6.11) and above & $\Sigma_i^{-1}$ $\Rightarrow$ $\boldsymbol{\Sigma}_i^{-1}$ \\\hline
+281 & 318 & below (6.26) & $w(r)=\Psi (r) / r$ $\Rightarrow$ $w(r)=\psi (r) / r$ \\\hline
+282 & 320 & 1st para. in ``Uncertainty modeling'' & (6.10) and 6.11) $\Rightarrow$ (6.10) and (6.11) \\\hline
+285 & 323 & below (6.37) & triangle $\Delta$ $\Rightarrow$ triangle $\triangle$ \\\hline
+290 & 329 & below (6.49) & Hartley and Zisserman 2004, \underline{Section 7.5} $\Rightarrow$ Section 8.5 \\\hline
+291 & 330 & (6.51) & $... (x_i - c_x)(x_j - \underline{c_y}) + ...$ $\Rightarrow$ $... (x_i - c_x)(x_j - \underline{c_x}) + ...$ \\\hline
+291 & 330 & below (6.51) & Hartley and Zisserman 2004, \underline{Section 7.6} $\Rightarrow$ Section 8.6 \\\hline
+291 & 330 & Figure 6.9 & $(\hat{x}_i, \hat{x}_j)$ $\Rightarrow$ $(\boldsymbol{\hat{x}}_i, \boldsymbol{\hat{x}}_j)$ \\\hline
+%chapter 7
+307 & 348 & Figure 7.3 & $x$ and 0 in the left camera image should be $x_0$ \\\hline
+309 & 350 & (7.18) & add a period at the end of Eq.(7.18) \\\hline
+309 & 350 & (7.20) & $\det |\alpha \boldsymbol{E}_0 + (1-\alpha)\boldsymbol{E}_1|=0$ $\Rightarrow$ remove $\det$ \\\hline
+310 & 351 & below (7.25) & (Hartley and Zisserman 2004, \underline{p. 240}) $\Rightarrow$ p. 259 \\\hline
+313 & 354 & footnote 8 & Hartley and Zisserman (2004, \underline{p. 237}) $\Rightarrow$ p. 256 \\\hline
+314 & 355,356 & above (7.35) & Hartley and Zisserman (2004, \underline{p. 456}) $\Rightarrow$ p. 472 \\\hline
+315 & 358 & above (7.40) & weak perspective $\Rightarrow$ scaled orthographic \\\hline
+317 & 359 & below (7.45) & the $3 \times 1$ rows $\Rightarrow$ the $1 \times 3$ rows \\\hline
+317 & 359 & below (7.45) & ... equal to \underline{$s_j$} and ... $\Rightarrow$ $s_j^2$ \\\hline
+319 & 362 & 3rd para. in 7.3.2 & Cremers 2009)\underline{.} Another \\\hline
+321 & 364 & above (7.51), and (7.52), (7.55) & $\Sigma_{ij}$ $\Rightarrow$ $\boldsymbol{\Sigma}_{ij}$ \\\hline
+333 & 378 & Ex 7.2 & least \underline{media} squares (LMS), $\Rightarrow$ least median of squares (LMS), \\\hline
+\end{tabular}
+\begin{tabular}{|c|c|c|l|}\hline
+\parbox[c]{5em}{\center Hardcopy\\ p.\#} &
+\parbox[c]{6em}{\center Online\\ Sept. 3, 2010} &
+Equation & Correction\\\hline
+%chapter 8
+    & 389 & (8.17) & $e^{-j u \cdot \boldsymbol{\omega}}$ $\Rightarrow$ $e^{-j \boldsymbol{u} \cdot \boldsymbol{\omega}}$ \\\hline
+    & 390 & (8.25) & $e^{-2\pi j u \cdot \boldsymbol{\omega}}$ $\Rightarrow$ $e^{-2\pi j \boldsymbol{u} \cdot \boldsymbol{\omega}}$ \\\hline
+344 & 391 & (8.31) & $I_0 (s,\theta)$ $\Rightarrow$ $\tilde{I}_0 (s,\theta)$ \\\hline
+356 & 405 & (8.68) & $w_{i,j}$ $\Rightarrow$ $w_{ij}$ \\\hline
+361 & 411 & below (8.71) & One popular choice for robust metrics \underline{in} the $L_1$ norm  $\Rightarrow$  is \\\hline
+368 & 419 & above sec. 8.5.2 & One example of ... 2004) \underline{which} is the one $\Rightarrow$ One example of ... 2004) is the one \\\hline
+%chapter 9
+378 & 430 & 2nd para. sec. 9.1 &  a planar \underline{surfaced} $\Rightarrow$ surface \\\hline
+381 & 434 & (9.10) &  $(h_{00}, h_{01}, h_{02}, \underline{h_{00}}, h_{11}, h_{12}, h_{20}, h_{21})$ $\Rightarrow$ $h_{10}$\\\hline
+    & 442 & footnote 9 & $\Sigma_{ij}^{-1}$ $\Rightarrow$ $\boldsymbol{\Sigma}_{ij}^{-1}$ \\\hline
+400 & 455 & between (9.38) and (9.39) & alpha (\underline{translucency}) $\Rightarrow$ transparency \\\hline
+400 &       & (9.40) & $l = ...$ $\Rightarrow$  $l(\boldsymbol{x}) = ...$ \\\hline
+%401 &       & below (9.41) & where $D(\boldsymbol{x},l)$ is ... $\Rightarrow$ $D(\boldsymbol{x},l(\boldsymbol{x}))$ \\\hline
+%chapter 10
+416 & 475 & Fig 10.5 & add missing (a)(b)(c)(d) from left to right. \\\hline
+    & 482 & (10.8) & ... $w(z_{i,j}) [ g(z_{i,j}) - ... ] $ $\Rightarrow$ ... $w(z_{ij}) [ g(z_{ij}) - ... ] $ \\\hline
+430 & 489 & below (10.18) & The attenuation function \underline{$I(x,y)$} $\Rightarrow$ $\Phi(x,y)$ \\\hline
+449 & 512 & (10.35) & $\Sigma_F$ $\Rightarrow$ $\boldsymbol{\Sigma}_F$ \\\hline
+450 & 514 & Fig 10.43 & $\mu_k$ $\Rightarrow$ $\boldsymbol{\mu}_k$ \\\hline
+451 & 514 & below (10.40) & $\sfrac{\epsilon}{\mathrm{M}}\boldsymbol{I}$ $\Rightarrow$ $\sfrac{\epsilon}{M}\boldsymbol{I}$ \\\hline
+454 & 517 & Fig 10.48 & add missing (a)(b)(c)(d)(e) from left to right. \\\hline
+459 & 524 & 5th para. sec. 10.5.2 & (Figure 10.55a--b) ... (Figure 10.55c--d) $\Rightarrow$ Figure 10.55 (or add (a--b) in Fig.10.55)\\\hline
+% chapter 11
+471 & 538 & Figure 11.3b & $x$ and 0 in the left camera image should be $x_0$ \\\hline
+474 & 541 & below (11.3) & (Hartley and Zisserman 2004, \underline{A5.2}) $\Rightarrow$ A7.2 \\\hline
+% chapter 12
+508 &       & Fig. 12.1 & \underline{(e--f)} corresponding shape from shading ...  $\Rightarrow$ (e--h) \\\hline
+516 & 590 & Fig. 12.8 & merged with their \underline{(weights) bottom left} $\Rightarrow$ weights (bottom left) \\\hline
+518 & 592 & 2nd para. sec. 12.3.1 & (Section 3.7.1 (3.94--3.98) \underline{\ )\ }.${}^\mathrm{5}$  \\\hline
+524 &        & Fig. 12.14 & add (a) (b) (c) (d) below each figure \\\hline
+% chapter 13
+548 &       & Fig. 13.4 & add (c) below the right figure \\\hline
+553 & 630 & Fig. 13.8 & ... coordinates \underline{$u$ and $u'$} $\Rightarrow$ \underline{$u'$ and $u''$} \\\hline
+566 & 646 & footnote 12 & remove ``('' at the begining. \\\hline
+% chapter 14
+607 & 691 & below (14.34) & inverted \underline{file} $\rightarrow$ inverted index \\\hline
+607 & 691 & above (14.35) & inverted \underline{file} index $\rightarrow$ inverted index \\\hline
+624 & 711  & sec.14.4.4 3rd para. from last & \parbox[c]{.5\linewidth}{ using an active shape model (Cootes, Edwards, and Taylor 2001; ... $\Rightarrow$ (Cootes, Cooper, Taylor et al. 1995 } \\\hline
+630 & 718  & sec.14.5.2 3rd para. & probabilistic \underline{latest} semantic analysis (PLSA)  $\Rightarrow$ latent \\\hline
+638 & 726 & Ex 14.5 & ``eye, nose, and \underline{face} regions.'' $\Rightarrow$ \underline{mouth} \\\hline
+% appendix
+652 &        & (A.28) & $| \boldsymbol{a}_i \boldsymbol{x} - b_i|^2$  $\Rightarrow$  $| \boldsymbol{a}_i^T \boldsymbol{x} - b_i|^2$  \\\hline
+659 & 751,752 & (A.52)--(A.54) & $\hat{x}$ $\Rightarrow$ $\boldsymbol{\hat{x}}$ \\\hline
+666 & 761 & below (B.18) & $w(r)=\Psi (r) / r$ $\Rightarrow$ $w(r)=\psi (r) / r$ \\\hline
+% Reference
+691 & 791 & Abdel-Hakim, ... (2006). & color invariant \underline{characterstics} $\Rightarrow$  color invariant characteristics \\\hline
+693 & 794 & Arbel\'aez, P., ... (2010). & \parbox[c]{.5\linewidth}{ Submitted to PAMI.  $\Rightarrow$ IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-33(5):898--916 (2011). } \\\hline
+    & 797 & Bartels, R. H., ... (1987) & and Geeometric Modeling. $\Rightarrow$ Geometric \\\hline
+699 & 802 & Blake, ... (2010). & (2011). Markov Random Fields for Vision and Image Processing, MIT Press. \\\hline
+703 & 808 & Capel, D. P. (2001). & \textit{Super-resolution and Image Mosaicing} $\Rightarrow$ \textit{Image Mosaicing and Super-resolution} \\\hline % on his website.
+707 & 813 & Cootes, T. F. and Taylor, C. J. (2001). & In \textit{Medical Imaging}. $\Rightarrow$  In \textit{SPIE Vol. 4322, Medical Imaging 2001: Image Processing}, pp. 236--248. \\\hline
+710 & 817 & Davis, T. A. (2008). & \parbox[c]{.5\linewidth}{ (2011). Algorithm 915, SuiteSparseQR: Multifrontal multithreaded rank-revealing sparse QR factorization. \textit{ACM Trans. on Mathematical Software}, 38(1): Article 8. }\\\hline
+712 & 820 & Diebel, J. (2006). & Representing Attitude: Euler Angles, \underline{Unit} Quaternions, and Rotation Vectors. \\\hline
+717 & 827 & Foley, van Dam, Feiner, Hughes (1995). & (1996) Computer Graphics: Principles and Practice. Addison-Wesley, Reading, MA, 2nd edition in C. \\\hline
+719 & 829 & Furukawa, Y. and Ponce, J. (2011). & \parbox[c]{.5\linewidth}{  (2010). ... IEEE Transactions on Pattern Analysis and Machine Intelligence, PAMI-32(8): 1362--1376. } \\\hline
+721 & 832 & Golovinskiy, A. ... (2006). & ster, H. P.,  $\Rightarrow$ Pfister, H., \\\hline
+725 & 837 & Hartley and Zisserman (2004) & Multiple View Geometry. \underline{2nd Edition.} \\\hline  % pages in the text indicate those in the 1st edition (2000). The 2004 version is the 2nd edition.
+725 & 838 & \parbox[c]{.2\linewidth}{ Hastie, T., Tibshirani, R., and Friedman, J. (2001). } &  (2009). ... Springer-Verlag, New York, 2nd edition. \\\hline
+729 & 843 & Huynh, D. Q., ... (2003). & Outlier correcton $\Rightarrow$ Outlier correction \\\hline
+%736 & 853 & Kumar, M. P., ... (2010) &  (sumbitted) $\Rightarrow$ (submitted) \\\hline
+736 & 853 & Kumar, M. P., ... (2010) &  (2011).  ... \textit{Journal of Machine Learning Research}, 12(1):31−67. \\\hline
+736 & 853 & Kumar, M. P., ... (2009) &  H.S.Torr, P. $\Rightarrow$ Torr, P. H. S. \\\hline
+748 & 870 & & \underline{Mi\v{c}u\v{s}\`ik}, ... (2008). $\Rightarrow$ \underline{Mi\v{c}u\v{s}\'ik} \\\hline
+742 & 861 & Lischinski, D., ... (2006a) and (2006b) &  Two are the same reference and hence merged into (2006)  \\\hline
+753 & 876 & Okutomi, M. and Kanade, T. (1994). & remove because this is an erroneous duplication of Kanade, T. and Okutomi, M. (1994). \\\hline
+762 & 889 & Rousseeuw, P. J. (1984). & Least median of squares \underline{regresssion} $\Rightarrow$ regression \\\hline
+    & 899 & Simoncelli, E. P. ... (1990b) & Subband Coding $\Rightarrow$ Subband \underline{Image} Coding \\\hline
+792 & 931 & & \underline{Zitov'aa}, B. and Flusser, J. (2003). $\Rightarrow$ \underline{Zitov\'a} \\\hline
+references & & & ABCD`20xx $\Rightarrow$ ABCD20xx \\\hline
+references & & & ABCD-20xx or ABCD-9x $\Rightarrow$ ABCD20xx or ABCD9x \\\hline
+\end{tabular}
+\end{document}
